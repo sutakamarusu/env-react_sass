@@ -24832,7 +24832,8 @@ class App extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
   }
 
   render() {
-    return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", null, this.state.message);
+    const name = "sueyoshi";
+    return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", null, "Hello! ", name);
   }
 
 }
@@ -24878,8 +24879,8 @@ react_dom__WEBPACK_IMPORTED_MODULE_1___default.a.render(react__WEBPACK_IMPORTED_
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! /Users/moliangchongjiang/Desktop/FrontTemplate/src/front/js/main.js */"./src/front/js/main.js");
-module.exports = __webpack_require__(/*! /Users/moliangchongjiang/Desktop/FrontTemplate/src/front/sass/app.scss */"./src/front/sass/app.scss");
+__webpack_require__(/*! /Users/moliangchongjiang/Desktop/env-react_sass/src/front/js/main.js */"./src/front/js/main.js");
+module.exports = __webpack_require__(/*! /Users/moliangchongjiang/Desktop/env-react_sass/src/front/sass/app.scss */"./src/front/sass/app.scss");
 
 
 /***/ })
