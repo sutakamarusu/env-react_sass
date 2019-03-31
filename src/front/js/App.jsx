@@ -10,9 +10,9 @@ export default class App extends React.Component {
     const json = await fetch('/hello').then(res => res.json())
     this.setState({ message: json.message })
   }
-
+  const name = 'sueyoshi';
   render() {
-    return <h1>{this.state.message}</h1>
+    return <h1>Hello! {name}</h1>
   }
 }
 
